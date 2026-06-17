@@ -794,27 +794,31 @@ Full Stack .NET Developer with 4.5+ years of experience building enterprise appl
         </ul>
       </div>
       <div>
-        <div class="contact-form">
+        <form class="contact-form" action="https://formsubmit.co/kalpeshrajpurohit04@gmail.com"
+      method="POST" >
           <div class="form-row">
             <div class="form-group">
               <label>Name</label>
-              <input type="text" placeholder="Your name"/>
+              <input type="text" name="name" placeholder="Your name"/ required>
             </div>
             <div class="form-group">
               <label>Email</label>
-              <input type="email" placeholder="your@email.com"/>
+              <input type="email" name="email"  placeholder="your@email.com"/ required>
             </div>
           </div>
           <div class="form-group">
             <label>Subject</label>
-            <input type="text" placeholder="What's this about?"/>
+            <input type="text" name="subject" placeholder="What's this about?"/ required>
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea placeholder="Tell me about the role or project..."></textarea>
+            <textarea name="message" placeholder="Tell me about the role or project..." required></textarea>
           </div>
-          <button class="form-submit">Send Message →</button>
-        </div>
+          <button type="submit" class="form-submit">Send Message →</button>
+		  <input type="hidden"
+       name="_next"
+       value="https://github.com/thekalp">
+        </form>
       </div>
     </div>
   </section>
